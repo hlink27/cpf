@@ -1,0 +1,75 @@
+body {
+    background-color: #212b38;
+}
+.flex-container {
+    margin-top: 10em;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.flex-item {
+    width: 26em;
+    height: auto;
+    background-color: #37465B;
+}
+.flex-item h2 {
+    color: #08c6ab;
+    margin: 1em;
+    font-family: monospace;
+}
+button {
+    background-color: #37465B;
+    border: 2px solid #08c6ab;
+    font-family: monospace;
+    color: #08c6ab;
+    padding: 10px 20PX;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+}
+
+button:hover {
+    background-color: #5AFFE7;
+    color: #0a423a
+}
+input[type="number"], textarea {
+    background-color: #37465B;
+    color: #08c6ab;
+    font-size: medium;
+    outline: 0;
+    border-width: 0 0 0.1em;
+    border-color: #08c6ab;
+    width: 10em;
+    text-align: center;
+    padding-bottom: 0.2em;
+    margin-left: 1.5em;
+}
+.campoVerifica {
+    font-family: monospace;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.cpfValido {
+    color: rgb(170, 214, 159);
+    text-shadow: 0 0 3px green;
+}
+.cpfInvalido{
+    color: rgb(209, 146, 146);
+    text-shadow: 0 0 3px red;
+}
+.listaCPF {
+    font-family: monospace;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #726EFF;
+    text-shadow: 0 0 3px #27264b;
+}
